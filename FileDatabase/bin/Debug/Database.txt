@@ -1,0 +1,13 @@
+﻿[employee]
+id = "1"
+name = "Philipp Badenhoop"
+phoneNumber = "03377 330164"
+
+[employee]
+id = "2"
+name = "Peregrin Hoffmann"
+phoneNumber = "111 111"
+
+[customer]
+id = "1"
+name = "Tim Tsikatzki"
