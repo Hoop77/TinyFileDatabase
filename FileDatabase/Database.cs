@@ -81,14 +81,14 @@ namespace FileDatabase
             
             while( ReadLine() && line[ 0 ] != '[' ) // stop if recognizing the start of an entry
             {
-                Attribute attribute = ReadAttribute();
+                Attribute attribute = ParseAttribute();
                 attributes.Add( attribute );
             }
 
             return attributes;
         }
 
-        private Attribute ReadAttribute()
+        private Attribute ParseAttribute()
         {
             var lineReader = new StringReader( line );
 
