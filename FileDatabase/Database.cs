@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace FileDatabase
 {
-    class Database
+    public class Database
     {
-        private StreamReader fileReader;
+        private StringReader fileReader;
         private string line;
         private bool endOfFile;
         private int lineNumber;
@@ -19,20 +19,20 @@ namespace FileDatabase
 
         public Database() {}
 
-        public ArrayList ReadEntries( string filename )
+        public ArrayList ReadEntries( string content )
         {
             entries = new ArrayList();
             endOfFile = false;
             lineNumber = 0;
             
-            fileReader = new StreamReader( filename );
+            fileReader = new StringReader( content );
             // read first line
             ReadLine();
 
             Entry entry = null;
-
+            
             while( (entry = ParseNextEntry()) != null )
-                entries.Add( entry );
+                entries.Add(entry);
 
             fileReader.Close();
 
@@ -81,7 +81,7 @@ namespace FileDatabase
             
             while( ReadLine() && line[ 0 ] != '[' ) // stop if recognizing the start of an entry
             {
-                Attribute attribute = ParseAttribute();
+                var attribute = ParseAttribute();
                 attributes.Add( attribute );
             }
 
@@ -142,11 +142,14 @@ namespace FileDatabase
                     return false;
                 }
 
+                line = line.Trim(); // Fix
+
                 lineNumber++;
             }
             while( line.Equals( string.Empty ) );
             
-            line = line.Trim();
+            // Error!
+            //line = line.Trim();
             
             return true;
         }
@@ -179,7 +182,7 @@ namespace FileDatabase
             string result = string.Empty;
             int c;
 
-            do
+            while( true )
             {
                 c = reader.Read();
                 if( c == -1 )
@@ -190,7 +193,6 @@ namespace FileDatabase
 
                 result += Convert.ToChar( c );
             }
-            while( true );
 
             return result;
         }
