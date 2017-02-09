@@ -10,4 +10,13 @@ phoneNumber = "111 111"
 
 [customer]
 id = "1"
-name = "Tim Tsikatzki"
+name = "Tim Sikatzki"
+cartItem = "cookies"
+cartItem = "TV"
+cartItem = "Mikrowelle"
+
+[customer]
+id = "2"
+name = "Horst Schlemmer"
+cartItem = "cookies"
+cartItem = "T-shirt"

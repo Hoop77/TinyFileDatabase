@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analyzer.cs" />
     <Compile Include="Attribute.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerDAO.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="Entry.cs" />
+    <Compile Include="ICustomerDAO.cs" />
     <Compile Include="ParserException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -36,4 +36,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion( "1.0.0.0" )]
 [assembly: InternalsVisibleTo("FileDatabase.Tests")]
 [assembly: InternalsVisibleTo("FileDatabase.Explorables")]
+[assembly: InternalsVisibleTo("FileDatabase.Tests1")]
 

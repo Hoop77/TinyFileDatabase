@@ -10,7 +10,7 @@ namespace FileDatabase
 {
     public class Database
     {
-        private StringReader fileReader;
+        private TextReader contentReader;
         private string line;
         private bool endOfFile;
         private int lineNumber;
@@ -19,13 +19,26 @@ namespace FileDatabase
 
         public Database() {}
 
-        public ArrayList ReadEntries( string content )
+        public ArrayList ReadEntriesFromFile( string filename )
+        {
+            contentReader = new StreamReader( filename );
+
+            return ReadEntries();
+        }
+
+        public ArrayList ReadEntriesFromString(string content)
+        {
+            contentReader = new StringReader(content);
+
+            return ReadEntries();
+        }
+
+        private ArrayList ReadEntries()
         {
             entries = new ArrayList();
             endOfFile = false;
             lineNumber = 0;
             
-            fileReader = new StringReader( content );
             // read first line
             ReadLine();
 
@@ -34,7 +47,7 @@ namespace FileDatabase
             while( (entry = ParseNextEntry()) != null )
                 entries.Add(entry);
 
-            fileReader.Close();
+            contentReader.Close();
 
             return entries;
         }
@@ -135,7 +148,7 @@ namespace FileDatabase
         {
             do
             {
-                line = fileReader.ReadLine();
+                line = contentReader.ReadLine();
                 if( line == null )
                 {
                     endOfFile = true;

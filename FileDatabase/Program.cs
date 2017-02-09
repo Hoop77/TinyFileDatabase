@@ -11,7 +11,11 @@ namespace FileDatabase
     {
         static void Main( string[] args )
         {
-            new Program().CreateDatabaseEntries();
+            //new Program().CreateDatabaseEntries();
+            
+            new Analyzer().AnalyzeCartItems( new CustomerDAO() );
+
+            Console.Read();
         }
 
         private string ReadContent()
@@ -32,7 +36,7 @@ namespace FileDatabase
         {
             try
             {
-                var entries = new Database().ReadEntries( ReadContent() );
+                var entries = new Database().ReadEntriesFromString( ReadContent() );
                 foreach (Entry entry in entries)
                 {
                     Console.WriteLine("An entry \"" + entry.Name + "\"");
@@ -47,8 +51,6 @@ namespace FileDatabase
             {
                 Console.WriteLine(e.Message);
             }
-
-            Console.Read();
         }
     }
 }
