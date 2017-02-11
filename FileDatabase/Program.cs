@@ -13,7 +13,7 @@ namespace FileDatabase
         {
             //new Program().CreateDatabaseEntries();
             
-            new Analyzer().AnalyzeCartItems( new CustomerDAO() );
+            new Analyzer( new CustomerDAO() ).AnalyzeCartItems();
 
             Console.Read();
         }

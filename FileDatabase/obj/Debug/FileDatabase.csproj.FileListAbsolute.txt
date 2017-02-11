@@ -3,3 +3,4 @@ f:\dokumente\visual studio 2015\Projects\FileDatabase\FileDatabase\bin\Debug\Fil
 f:\dokumente\visual studio 2015\Projects\FileDatabase\FileDatabase\bin\Debug\FileDatabase.pdb
 f:\dokumente\visual studio 2015\Projects\FileDatabase\FileDatabase\obj\Debug\FileDatabase.exe
 f:\dokumente\visual studio 2015\Projects\FileDatabase\FileDatabase\obj\Debug\FileDatabase.pdb
+f:\dokumente\visual studio 2015\Projects\FileDatabase\FileDatabase\obj\Debug\FileDatabase.csprojResolveAssemblyReference.cache

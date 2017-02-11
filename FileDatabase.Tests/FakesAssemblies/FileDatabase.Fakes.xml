@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileDatabase.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FileDatabase.Fakes.ShimAnalyzer">
+            <summary>Shim-Typ von FileDatabase.Analyzer</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimAnalyzer.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimAnalyzer.#ctor(FileDatabase.Analyzer)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimAnalyzer.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.AllInstances.AnalyzeCartItems">
+            <summary>Legt die shim von Analyzer.AnalyzeCartItems() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.AllInstances.ICustomerDAOGet">
+            <summary>Legt die shim von Analyzer.get_ICustomerDAO() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.AllInstances.ICustomerDAOSetICustomerDAO">
+            <summary>Legt die shim von Analyzer.set_ICustomerDAO(ICustomerDAO value) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.AnalyzeCartItems">
+            <summary>Legt die shim von Analyzer.AnalyzeCartItems() fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimAnalyzer.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimAnalyzer.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.ConstructorICustomerDAO">
+            <summary>Legt die shim von Analyzer.Analyzer(ICustomerDAO customerDAO) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.ICustomerDAOGet">
+            <summary>Legt die shim von Analyzer.get_ICustomerDAO() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimAnalyzer.ICustomerDAOSetICustomerDAO">
+            <summary>Legt die shim von Analyzer.set_ICustomerDAO(ICustomerDAO value) fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimCustomer">
+            <summary>Shim-Typ von FileDatabase.Customer</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomer.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomer.#ctor(FileDatabase.Customer)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimCustomer.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.AllInstances.CartItemsGet">
+            <summary>Legt die shim von Customer.get_CartItems() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.AllInstances.CartItemsSetArrayList">
+            <summary>Legt die shim von Customer.set_CartItems(ArrayList value) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.AllInstances.IdGet">
+            <summary>Legt die shim von Customer.get_Id() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.AllInstances.IdSetInt64">
+            <summary>Legt die shim von Customer.set_Id(Int64 value) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.AllInstances.NameGet">
+            <summary>Legt die shim von Customer.get_Name() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.AllInstances.NameSetString">
+            <summary>Legt die shim von Customer.set_Name(String value) fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomer.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomer.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.CartItemsGet">
+            <summary>Legt die shim von Customer.get_CartItems() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.CartItemsSetArrayList">
+            <summary>Legt die shim von Customer.set_CartItems(ArrayList value) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.Constructor">
+            <summary>Legt die shim von Customer.Customer() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.IdGet">
+            <summary>Legt die shim von Customer.get_Id() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.IdSetInt64">
+            <summary>Legt die shim von Customer.set_Id(Int64 value) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.NameGet">
+            <summary>Legt die shim von Customer.get_Name() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomer.NameSetString">
+            <summary>Legt die shim von Customer.set_Name(String value) fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimCustomerDAO">
+            <summary>Shim-Typ von FileDatabase.CustomerDAO</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomerDAO.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomerDAO.#ctor(FileDatabase.CustomerDAO)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimCustomerDAO.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomerDAO.AllInstances.GetCustomers">
+            <summary>Legt die shim von CustomerDAO.GetCustomers() fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomerDAO.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomerDAO.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomerDAO.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimCustomerDAO.Bind(FileDatabase.ICustomerDAO)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomerDAO.Constructor">
+            <summary>Legt die shim von CustomerDAO.CustomerDAO() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomerDAO.Foo">
+            <summary>Legt die shim von CustomerDAO.Foo() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimCustomerDAO.GetCustomers">
+            <summary>Legt die shim von CustomerDAO.GetCustomers() fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimDatabase">
+            <summary>Shim-Typ von FileDatabase.Database</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimDatabase.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimDatabase.#ctor(FileDatabase.Database)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.ShimDatabase.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ParseAttributes">
+            <summary>Legt die shim von Database.ParseAttributes() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ParseEntryName">
+            <summary>Legt die shim von Database.ParseEntryName() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ReadEntries">
+            <summary>Legt die shim von Database.ReadEntries() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ReadEntriesFromFileString">
+            <summary>Legt die shim von Database.ReadEntriesFromFile(String filename) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ReadEntriesFromStringString">
+            <summary>Legt die shim von Database.ReadEntriesFromString(String content) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ReadLine">
+            <summary>Legt die shim von Database.ReadLine() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ReadUntilInt32StringReader">
+            <summary>Legt die shim von Database.ReadUntil(Int32 character, StringReader reader) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.AllInstances.ReadUntilLineEndStringReader">
+            <summary>Legt die shim von Database.ReadUntilLineEnd(StringReader reader) fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimDatabase.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.ShimDatabase.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.Constructor">
+            <summary>Legt die shim von Database.Database() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ParseAttributes">
+            <summary>Legt die shim von Database.ParseAttributes() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ParseEntryName">
+            <summary>Legt die shim von Database.ParseEntryName() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ReadEntries">
+            <summary>Legt die shim von Database.ReadEntries() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ReadEntriesFromFileString">
+            <summary>Legt die shim von Database.ReadEntriesFromFile(String filename) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ReadEntriesFromStringString">
+            <summary>Legt die shim von Database.ReadEntriesFromString(String content) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ReadLine">
+            <summary>Legt die shim von Database.ReadLine() fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ReadUntilInt32StringReader">
+            <summary>Legt die shim von Database.ReadUntil(Int32 character, StringReader reader) fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.ShimDatabase.ReadUntilLineEndStringReader">
+            <summary>Legt die shim von Database.ReadUntilLineEnd(StringReader reader) fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.StubAnalyzer">
+            <summary>Stub-Typ von FileDatabase.Analyzer</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubAnalyzer.#ctor(FileDatabase.ICustomerDAO)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubAnalyzer.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubAnalyzer.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubAnalyzer.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubAnalyzer.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubAnalyzer.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.StubCustomer">
+            <summary>Stub-Typ von FileDatabase.Customer</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubCustomer.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubCustomer.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubCustomer.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubCustomer.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubCustomer.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubCustomer.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.StubCustomerDAO">
+            <summary>Stub-Typ von FileDatabase.CustomerDAO</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubCustomerDAO.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubCustomerDAO.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubCustomerDAO.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubCustomerDAO.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubCustomerDAO.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubCustomerDAO.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.StubDatabase">
+            <summary>Stub-Typ von FileDatabase.Database</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubDatabase.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubDatabase.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubDatabase.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubDatabase.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubDatabase.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:FileDatabase.Fakes.StubDatabase.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:FileDatabase.Fakes.StubICustomerDAO">
+            <summary>Stub-Typ von FileDatabase.ICustomerDAO</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubICustomerDAO.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubICustomerDAO.</summary>
+        </member>
+        <member name="M:FileDatabase.Fakes.StubICustomerDAO.FileDatabase#ICustomerDAO#GetCustomers">
+            <summary>Legt die stub von ICustomerDAO.GetCustomers() fest.</summary>
+        </member>
+        <member name="F:FileDatabase.Fakes.StubICustomerDAO.GetCustomers">
+            <summary>Legt die stub von ICustomerDAO.GetCustomers() fest.</summary>
+        </member>
+    </members>
+</doc>

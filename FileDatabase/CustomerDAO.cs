@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace FileDatabase
 {
-    class CustomerDAO : ICustomerDAO
+    public class CustomerDAO : ICustomerDAO
     {
+        public static void Foo() { }
+
         public ArrayList GetCustomers()
         {
             var customers = new ArrayList();
